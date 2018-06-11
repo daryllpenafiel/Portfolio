@@ -6,13 +6,14 @@ body {
 }
 
 i {
-    font-size: 120px;
+    font-size: 90px;
     padding: 12px;
 }
 
 svg {
-    height: 140px;
-    width: 140px;
+    height: 120px;
+    width: 120px;
+    margin-left: 80px;
 }
 
 .skills-area {
@@ -21,11 +22,12 @@ svg {
     color: black;
     padding: 20px 0px;
     position: relative;
+    margin-bottom: 0px;
 }
 
 #display-pic {
-    height: 30rem;
-    width: 30rem;
+    height: 18rem;
+    width: 18rem;
     border-radius: 50%;
 }
 
@@ -60,19 +62,12 @@ li.nav-item {
 }
 
 .contact-icon {
-    width: 6rem;
+    width: 3rem;
     margin-right: 10px;
 }
 
-.contact-area {
-    background-color: black;
-}
 
-.contact-container {
-    background-color: black;
-    width: 100%;
-    padding: 20px 200px;
-}
+
 
 nav {
     position: fixed;
@@ -107,4 +102,27 @@ a {
 #portfolio-carousel {
     width: 800px;
     margin: 20px auto;
+}
+
+.dp-name {
+line-height: 2px;
+padding-top: 25px;
+}
+
+.dp-title{
+    line-height: 1px;
+}
+
+.carousel-area {
+    background-color: black;
+    margin-top:0px;
+}
+
+.experience-container{
+    background-color: lemonchiffon;
+    padding: 20px;
+}
+
+.contact-area {
+    background-color: black;
 }
