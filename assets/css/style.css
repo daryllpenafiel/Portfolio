@@ -16,15 +16,6 @@ svg {
     margin-left: 80px;
 }
 
-.skills-area {
-    color: gray;
-    background-color: lightseagreen;
-    color: black;
-    padding: 20px 0px;
-    position: relative;
-    margin-bottom: 0px;
-}
-
 #display-pic {
     height: 17rem;
     width: 17rem;
@@ -38,18 +29,6 @@ svg {
     line-height: 40px;
     padding-top: 60px;
     font-family: 'Montserrat', sans-serif;
-}
-
-.about-me-area {
-    padding: 80px;
-    background-color: aliceblue;
-}
-
-
-.navbar-nav.navbar-center {
-    position: absolute;
-    left: 50%;
-    transform: translatex(-50%);
 }
 
 li.nav-item {
@@ -91,32 +70,48 @@ a {
     font-size: 0.9em;
 }
 
+.navbar-nav.navbar-center {
+    position: absolute;
+    left: 50%;
+    transform: translatex(-50%);
+}
+
 #portfolio-carousel {
     width: 888px;
     margin: 20px auto;
 }
 
-.dp-name {
-line-height: 2px;
-padding-top: 25px;
+.tools-container {
+    color: gray;
+    background-color: lightseagreen;
+    color: black;
+    position: relative;
+    margin-bottom: 0px;
 }
 
-.dp-title{
+#home {
+    padding: 80px;
+    background-color: aliceblue;
+}
+
+.dp-name {
+    line-height: 2px;
+    padding-top: 25px;
+}
+
+.dp-title {
     line-height: 1px;
 }
 
-.carousel-area {
+#carousel-area {
     background-color: black;
-    margin-top:0px;
+    margin-top: 0px;
 }
 
-.experience-container{
+#education-experience {
     background-color: gold;
     padding: 50px;
 }
-
-
-
 .banner {
     text-decoration: underline;
 }
@@ -130,17 +125,11 @@ padding-top: 25px;
     margin: auto;
 }
 
-.contact-area {
-    background-color: honeydew;
-    padding: 40px;
-}
-.contact-container {
+
+#contact-details {
     margin: auto;
     text-align: center;
     padding: 20px 100px;
     background-color: honeydew;
 }
 
-.other-contact {
-    line-spacing: 50px;
-}
