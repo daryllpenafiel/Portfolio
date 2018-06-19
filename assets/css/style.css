@@ -133,3 +133,9 @@ a {
     background-color: honeydew;
 }
 
+.carousel-caption {
+    background-color: honeydew;
+    opacity: 0.8;
+    color: black;
+}
+

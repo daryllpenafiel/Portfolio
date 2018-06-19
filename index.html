@@ -4,7 +4,8 @@
 <head>
     <title>Daryll Penafiel | Web Developer</title>
     <meta charset="UTF-8">
-    <meta name="viewport" content="shrink-to-fit=no"><!--width=device-width, initial-scale=1,--> 
+    <meta name="viewport" content="shrink-to-fit=no">
+    <!--width=device-width, initial-scale=1,-->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
         crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
@@ -103,21 +104,35 @@
                             <img class="d-block w-100" src="./assets/images/mcguessing.PNG" alt="First slide">
                             <div class="carousel-caption d-none d-md-block">
                                 <h5>McGuessing Game</h5>
-                                <p>...</p>
+                                <p>Hangman-inspired game about my favorite fastfood joint.</p>
                             </div>
                         </div>
                         <div class="carousel-item">
                             <img class="d-block w-100" src="./assets/images/highnote.PNG" alt="Second slide">
                             <div class="carousel-caption d-none d-md-block">
-                                <h5>Hign Note</h5>
-                                <p>...</p>
+                                <h5>High Note</h5>
+                                <p>A concert search site.</p>
                             </div>
                         </div>
                         <div class="carousel-item">
                             <img class="d-block w-100" src="./assets/images/colors.PNG" alt="Third slide">
                             <div class="carousel-caption d-none d-md-block">
                                 <h5>Named CSS Colors Chart</h5>
-                                <p>...</p>
+                                <p>All named CSS colours written with under 80 lines of code.</p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img class="d-block w-100" src="./assets/images/adulting.PNG" alt="Third slide">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5>Adulting</h5>
+                                <p>Utlized Giphy's API to come up with a site we can all relate to.</p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img class="d-block w-100" src="./assets/images/drinking.PNG" alt="Third slide">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5>Virtual Drinking Game</h5>
+                                <p>A simple memory game, made fun.</p>
                             </div>
                         </div>
                     </div>
@@ -172,20 +187,20 @@
                 <form>
                     <p>Let me know what you think!</p>
                     <div class="form-group">
-                        <label for="exampleFormControlInput1">Name</label>
-                        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Name">
+                        <label for="form-name">Name</label>
+                        <input type="name" class="form-control" id="form-name" placeholder="Name">
                     </div>
 
                     <div class="form-group">
-                        <label for="exampleFormControlInput1">Email address</label>
-                        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+                        <label for="form-email">Email address</label>
+                        <input type="email" class="form-control" id="form-email" placeholder="name@example.com">
                     </div>
 
                     <div class="form-group">
-                        <label for="exampleFormControlTextarea1">Message</label>
-                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="8"></textarea>
+                        <label for="form-message">Message</label>
+                        <textarea class="form-control" id="form-message" rows="8"></textarea>
                     </div>
-                    <button type="button" class="btn btn-info">Submit</button>
+                    <button type="button" class="btn btn-info" id="form-submit-button">Submit</button>
                 </form>
             </div>
 
@@ -208,6 +223,22 @@
         crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
         crossorigin="anonymous"></script>
+    <script src="https://www.gstatic.com/firebasejs/5.0.4/firebase.js"></script>
+    <script>
+        // Initialize Firebase
+        var config = {
+            apiKey: "AIzaSyArt24JF114IOPVvvrwyVqGUmnrL9VuaYs",
+            authDomain: "portfolio-f5ee6.firebaseapp.com",
+            databaseURL: "https://portfolio-f5ee6.firebaseio.com",
+            projectId: "portfolio-f5ee6",
+            storageBucket: "portfolio-f5ee6.appspot.com",
+            messagingSenderId: "525890286384"
+        };
+        firebase.initializeApp(config);
+    </script>
+
+    <script src="./assets/javascript/js.js"></script>
+
 
 </body>
 
